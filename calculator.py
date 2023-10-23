@@ -2,7 +2,7 @@ def add(a, b):
     return a + b
 def subtract(a, b):
     return a - b
-def multipy(a, b):
+def multiply(a, b):
     return a * b
 def divide(a, b):
     return a / b
@@ -28,3 +28,12 @@ while(True):
         case 'b':
             print(num1, "-", num2, "=", subtract(num1, num2))
             print()
+        case 'c':
+            print(num1, "*", num2, "=", multiply(num1, num2))
+            print()
+        case 'd':
+            print(num1, "/", num2, "=", divide(num1, num2))
+            print()
+        case _:
+            print("Invalid Input")
+            break
