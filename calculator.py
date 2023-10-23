@@ -12,10 +12,13 @@ num2 = int(input("Enter the second number: "))
 print()
 
 while(True):
+    print()
     print("Calculator ")
     print()
     print("a. Addition ")
     print("b. Subtraction ")
+    print("c. Multiplication ")
+    print("d. Division ")
     print()
     choice = input("Enter your choice: ")
     print()
